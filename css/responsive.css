@@ -1,0 +1,57 @@
+/* md */
+@media (min-width:768px){
+    header{
+        padding: 180px 0 140px;
+    }
+    .main_text h2 { font-size: 40px;}
+}
+
+/* lg */
+@media (min-width:992px){
+    header{
+        padding: 210px 0 170px;
+    }
+    .main_text {
+        width: 960px; 
+        margin: 0 auto 0 auto;
+    }
+}
+
+/* xl */
+@media (min-width:1200px){
+    .main_text{
+        width: 1140px; margin: 0 auto 0 auto;
+    }
+    .main_text h2{font-size: 50px;}
+}
+
+
+
+@media (max-width:1200px){
+    .section3 .video_box video{
+        width: 90%;
+    }
+}
+
+
+@media (max-width:768px){
+    .slide2{
+
+    }
+
+    .section2 .tutoring .tutoring_wrap .tutoring_1{
+        width: 128px;
+    }
+
+    .section3 .video_list{
+        transform: translateX(10%);
+    }
+    .section3 .section_title{
+        display: none;
+    }
+
+    footer .container-lg{
+        flex-wrap: wrap;
+    }
+
+}
